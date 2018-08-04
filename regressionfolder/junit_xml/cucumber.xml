@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.524137">
+<testcase classname="login and product search" name="Product search and add to cart" time="42.524137">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at StepDefination.LoginStepDefination.click_on_login_button(LoginStepDefination.java:45)&#13;&#10;&#9;at ✽.And click on login button(C:/Users/AAMFoundation/eclipse-workspace/regressionfolder/src/test/java/Features/Login.Feature:8)&#13;&#10;"><![CDATA[Given User is on home page..................................................passed
+Then click on login link....................................................passed
+Then enter "peter.doran@yopmail.com" and "Tester@123".......................passed
+And click on login button...................................................failed
+Then Hover on men...........................................................skipped
+And Click on shorts.........................................................skipped
+Then click on any cloth name................................................skipped
+Then select the size........................................................skipped
+And click on Add to Bag button..............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefination.LoginStepDefination.click_on_login_button(LoginStepDefination.java:45)
+	at ✽.And click on login button(C:/Users/AAMFoundation/eclipse-workspace/regressionfolder/src/test/java/Features/Login.Feature:8)
+]]></failure>
+</testcase>
+</testsuite>
